@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Jeu de dés</string>
+    <string name="button6_text">Dés à 6 faces</string>
+    <string name="button20_text">Dés à 20 faces</string>
+    <string name="textTitle_text">Dés à %1$d faces</string>
+    <string name="textTitle_partial_text">faces</string>
+    <string name="textResult_text">X</string>
+    <string name="buttonRoll_text">Lancer les dés&#8230;</string>
+</resources>

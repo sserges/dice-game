@@ -20,7 +20,7 @@ public class DiceActivity extends Activity implements View.OnClickListener {
         max = getIntent().getIntExtra("max", 0);
 
         TextView textTitle = findViewById(R.id.textTitle);
-        textTitle.setText(max + " sided dice");
+        textTitle.setText(String.format(getResources().getString(R.string.textTitle_text), max));
 
         textResult = findViewById(R.id.textResult);
         textResult.setText("");
